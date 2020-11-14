@@ -1,0 +1,130 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../slike/bg.jpg") center top no-repeat rgb(255, 5, 50);
+}
+
+.container{
+    max-width: 920px; 
+  
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C41E2E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: white;
+    color: #C41E2E;
+}
+
+li .active{
+    color: #C41E2E;
+    background-color: antiquewhite;
+}
+
+
+
+
+.menu{
+   width: 100%;
+    right: 0;
+}
+
+.logo{
+    text-align: center;
+    background-color: #C41E2E;
+}
+
+.czv-bg img{
+    width: 100%;    
+}
+
+.footer{
+    background-color: #2d2d2d;
+    padding: 20px;
+    text-align: center;
+    color: #C41E2E;
+}
+
+.o-nama-kratko, .o-nama{
+    background-color: #C41E2E;
+    color: white;
+    font-size: 15px;
+    padding: 40px;
+}
+
+.igraci{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.igrac{
+    width: 32%;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.igrac:hover{
+    opacity: 0.5;
+}
+
+.igrac img{
+    width: 100%;
+}
+
+.igrac p{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.slika-igraca, .o-igracu{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.igrac-lista{
+    margin-bottom: 10px;
+}
+
+.igrac-lista{
+    background-color: transparent;
+}
+
+.igrac-lista li{
+    float: none;
+    color: white;
+    font-weight: 600;
+}
+
+.txt-igrac{
+    color: white;
+    background-color: #C41E2E;
+    padding: 40px;
+}
